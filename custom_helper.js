@@ -28,8 +28,6 @@ Handlebars.registerHelper('incrementedIndex', function(index) {
 
 
 
-Handlebars.registerHelper('isZeroRating', function(value) {
-    return value === "zero";
-});
+
 
 module.exports = Handlebars;
