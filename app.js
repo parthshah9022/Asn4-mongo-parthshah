@@ -16,7 +16,7 @@ var mongoose = require('mongoose');
 var app      = express();
 var database = require('./config/database');
 var bodyParser = require('body-parser');         // pull information from HTML POST (express4)
-var port     = process.env.PORT || 8000;
+var port     = process.env.PORT || 3000;
 const customHelpers = require('./custom_helper');
 
 app.use(bodyParser.urlencoded({'extended':'true'}));            // parse application/x-www-form-urlencoded
