@@ -1,0 +1,74 @@
+
+
+  <h1>New Invoice</h1>
+  <form action="/api/invoices" method="post">
+    <label for="invoiceID">Invoice ID:</label>
+    <input type="text" name="invoiceID" required>
+    <br>
+
+    <label for="branch">Branch:</label>
+    <input type="text" name="branch" required>
+    <br>
+
+    <label for="city">City:</label>
+    <input type="text" name="city" required>
+    <br>
+
+    <label for="customerType">Customer Type:</label>
+    <input type="text" name="customerType" required>
+    <br>
+
+    <label for="productLine">Product Line:</label>
+    <input type="text" name="productLine" required>
+    <br>
+
+    <label for="name">Name:</label>
+    <input type="text" name="name" required>
+    <br>
+
+    <label for="image">Image URL:</label>
+    <input type="text" name="image" required>
+    <br>
+
+    <label for="unitPrice">Unit Price:</label>
+    <input type="number" name="unitPrice" step="0.01" required>
+    <br>
+
+    <label for="quantity">Quantity:</label>
+    <input type="number" name="quantity" required>
+    <br>
+
+    <label for="tax">Tax 5%:</label>
+    <input type="number" name="tax" step="0.01" required>
+    <br>
+
+    <label for="total">Total:</label>
+    <input type="number" name="total" step="0.01" required>
+    <br>
+
+    <label for="date">Date:</label>
+    <input type="text" name="date" required>
+    <br>
+
+    <label for="time">Time:</label>
+    <input type="text" name="time" required>
+    <br>
+
+    <label for="payment">Payment:</label>
+    <input type="text" name="payment" required>
+    <br>
+
+    <label for="cogs">COGS:</label>
+    <input type="number" name="cogs" step="0.01" required>
+    <br>
+
+    <label for="grossIncome">Gross Income:</label>
+    <input type="number" name="grossIncome" step="0.01" required>
+    <br>
+
+    <label for="rating">Rating:</label>
+    <input type="number" name="rating" step="0.1" required>
+    <br>
+
+    <input type="submit" value="Add Invoice">
+  </form>
