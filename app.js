@@ -131,6 +131,12 @@ var Invoice = require('./models/invoice');
 // });
 
 // Get all invoices
+
+app.get('/', function (req, res) {
+  res.send('Successfully!  "Express is a fast and minimalistic web application framework for Node.js."');
+});
+
+
 app.get('/api/invoices', function (req, res) {
     Invoice.find(function (err, invoices) {
         console.log('Error:', err);
